@@ -1,13 +1,14 @@
-# Input swimming time
-swim_time = int(input("Enter the time taken for swimming, in minutes, please: "))
 
-# Input cycling time
-cycle = int(input("Enter the time taken for cycling, in minutes, please: "))
+# asking the user to input the swimming time
+swim_time_ = int(input("Enter the time taken for swimming, in minutes: "))
 
-# Input running time
-run = int(input("Enter the time taken for running, in minutes, please: "))
+# asking the user to input the cycling time
+cycle_time_ = int(input("Enter the time taken for cycling, in minutes: "))
 
-total_minutes = swim_time+cycle+run
+# asking the user to input the running time
+run_time_ = int(input("Enter the time taken for running, in minutes: "))
+
+total_minutes = swim_time_+cycle_time_+run_time_
 
 if total_minutes <= 100:
     print("Provincial colours")
