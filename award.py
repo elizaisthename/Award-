@@ -1,3 +1,4 @@
+
 # asking the user to input the swimming time
 swim_time_ = int(input("Enter the time taken for swimming, in minutes: "))
 
